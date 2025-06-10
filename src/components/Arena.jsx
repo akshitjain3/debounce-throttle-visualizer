@@ -27,10 +27,11 @@ const Arena = ({
               onClick={actionOnClick}
               height="30px"
               width="30px"
+              className="select-none"
             />
           ) : !showReset && showDelay ? (
             <div className="flex gap-2 border-2 border-gray-400 bg-white px-2 py-1 rounded-lg">
-              <p>Delay :</p>
+              <p className="select-none">Delay :</p>
               <input
                 type="text"
                 pattern="\d*"
